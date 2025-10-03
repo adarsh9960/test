@@ -211,10 +211,7 @@ export default function Home() {
       
       {/* CTA Floater */}
       <CTAFloater />
-      
-      {/* AI Chat Button */}
-      <AIChatButton />
-      
+
       {/* Scroll to Top Button */}
       <ScrollToTopButton />
     </div>
