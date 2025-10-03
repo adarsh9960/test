@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "src": "https://itzadarsh.co.in/assets/images/gallery.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/gallery.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs premium cab service",
+      "caption": ""
+    },
+    {
+      "id": 2,
+      "src": "https://itzadarsh.co.in/assets/images/gallery1.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/gallery1.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs reliable travel service",
+      "caption": ""
+    },
+    {
+      "id": 3,
+      "src": "https://itzadarsh.co.in/assets/images/gallery2.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/gallery2.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs luxury ride experience",
+      "caption": ""
+    },
+    {
+      "id": 4,
+      "src": "https://justcabhire.com/wp-content/uploads/2024/07/4-2.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://justcabhire.com/wp-content/uploads/2024/07/4-2.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs professional drivers",
+      "caption": "Elite Cabs - Driven by Professionals"
+    },
+    {
+      "id": 5,
+      "src": "https://itzadarsh.co.in/assets/images/5.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/5.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs city travel service",
+      "caption": "Elite Cabs - Explore the City with Ease"
+    },
+    {
+      "id": 6,
+      "src": "https://itzadarsh.co.in/assets/images/gallery3.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/gallery3.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs airport pickup service",
+      "caption": "Elite Cabs - Hassle-Free Airport Transfers"
+    },
+    {
+      "id": 7,
+      "src": "https://justcabhire.com/wp-content/uploads/2024/07/Untitled-design-72-768x512.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://justcabhire.com/wp-content/uploads/2024/07/Untitled-design-72-768x512.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs corporate travel solutions",
+      "caption": "Elite Cabs - Corporate Travel Partner"
+    },
+    {
+      "id": 8,
+      "src": "https://cdn.balloondekor.com/35/1739967958034.webp?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://cdn.balloondekor.com/35/1739967958034.webp?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs wedding transportation",
+      "caption": "Elite Cabs - Wedding Travel Services"
+    },
+    {
+      "id": 9,
+      "src": "https://itzadarsh.co.in/assets/images/gallery2.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "thumb": "https://itzadarsh.co.in/assets/images/gallery2.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "alt": "Elite Cabs group travel service",
+      "caption": "Elite Cabs - Comfortable Group Travel"
+    }
+  ]
+}

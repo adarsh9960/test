@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Sedan",
+      "image": "https://itzadarsh.co.in/assets/images/SWIFT-DZIRE.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Comfortable sedans perfect for city travel and business trips. Spacious interiors and smooth ride quality.",
+      "features": ["Air Conditioning", "GPS Navigation", "Leather Seats", "USB Charging"]
+    },
+    {
+      "id": 2,
+      "title": "SUV",
+      "image": "https://www.tyremarket.com/tyremantra/wp-content/uploads/2018/06/top-10-suv-in-india-Hyundai-Creta-e1529314152729.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Powerful SUVs ideal for family trips and outstation travel. Enhanced safety and comfort features.",
+      "features": ["7 Seater", "Air Conditioning", "GPS Navigation", "Entertainment System"]
+    },
+    {
+      "id": 3,
+      "title": "Luxury",
+      "image": "https://itzadarsh.co.in/assets/images/Untitled-design-4.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Premier luxury suv cars for special occasions and corporate travel. Experience ultimate comfort and style.",
+      "features": ["Premium Interior", "Chauffeur Service", "Complimentary Water", "Wi-Fi"]
+    },
+    {
+      "id": 4,
+      "title": "Premium",
+      "image": "https://itzadarsh.co.in/assets/images/fleet1.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Premier vehicles offering superior comfort and advanced features for discerning travelers.",
+      "features": ["Premium Sound System", "Climate Control", "Privacy Glass", "Reclining Seats"]
+    },
+    {
+      "id": 5,
+      "title": "Bus",
+      "image": "https://www.shutterstock.com/image-illustration/image-bus-isolated-on-white-600nw-2578467983.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Spacious buses for group travel, corporate events, and special occasions. Comfortable seating for large groups.",
+      "features": ["20-50 Seater", "Air Conditioning", "PA System", "Luggage Space"]
+    },
+    {
+      "id": 6,
+      "title": "SUV",
+      "image": "https://www.tyremarket.com/tyremantra/wp-content/uploads/2018/06/top-10-suv-in-india-Hyundai-Creta-e1529314152729.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Powerful SUVs ideal for family trips and outstation travel. Enhanced safety and comfort features.",
+      "features": ["7 Seater", "Air Conditioning", "GPS Navigation", "Entertainment System"]
+    },
+    {
+      "id": 7,
+      "title": "Luxury",
+      "image": "https://itzadarsh.co.in/assets/images/Untitled-design-3.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Premium luxury cars for special occasions and corporate travel. Experience ultimate comfort and style.",
+      "features": ["Premium Interior", "Chauffeur Service", "Complimentary Water", "Wi-Fi"]
+    },
+    {
+      "id": 8,
+      "title": "Premium",
+      "image": "https://imgd.aeplcdn.com/664x374/n/x3u8kfb_1821057.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "premium vehicles offering superior comfort and advanced features for discerning travelers.",
+      "features": ["Premium Sound System", "Climate Control", "Privacy Glass", "Reclining Seats"]
+    }
+  ]
+}

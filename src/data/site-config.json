@@ -1,0 +1,39 @@
+{
+  "icons": {
+    "favicon": "/favicon.ico",
+    "appleTouchIcon": "/apple-touch-icon.png",
+    "logo": "/elite-cabs-logo-blue.png",
+    "footerLogo": "/elite-cabs-logo-white.png"
+  },
+  "meta": {
+    "title": "Elite Cabs 24X7 - Best Cab Service Near Me in Mumbai | Premium Car Rental",
+    "description": "Best cab service near me in Mumbai. Premium car rental with driver 24X7. Airport transfers, local taxi, corporate travel & wedding transportation. Book now for reliable service!",
+    "keywords": "cab service near me, taxi service near me, car rental mumbai, taxi service mumbai, airport transfer mumbai, local taxi mumbai, mumbai cab service, cab booking mumbai, taxi near me, cab near me, wedding car rental, premium car hire, elite cabs, driver service, 24x7 taxi, mumbai airport taxi, corporate cab service, outstation taxi mumbai, taxi for wedding, luxury car rental mumbai, best cab service in mumbai, affordable taxi mumbai, taxi service in mumbai, cab service in mumbai, mumbai to pune taxi, mumbai local taxi, mumbai sightseeing taxi, taxi for airport drop, taxi for airport pickup",
+    "author": "Elite Cabs 24X7",
+    "copyright": "© 2025 Elite Cabs 24X7. All rights reserved.",
+    "og": {
+      "title": "Elite Cabs 24X7 - Best Cab Service Near Me in Mumbai | Premium Car Rental",
+      "description": "Best cab service near me in Mumbai. Premium car rental with driver 24X7. Airport transfers, local taxi, corporate travel & wedding transportation. Book now!",
+      "image": "/elite-cabs-logo.png",
+      "url": "https://elitecabsmumbai.com",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Elite Cabs 24X7 - Best Cab Service Near Me in Mumbai",
+      "description": "Best cab service near me in Mumbai. Premium car rental with driver 24X7. Airport transfers, local taxi service.",
+      "image": "/elite-cabs-logo.png"
+    }
+  },
+  "contact": {
+    "phone": "+91 70217 51691",
+    "email": "contact.elitecabsmumbai@gmail.com",
+    "address": "Mumbai, Maharashtra, India",
+    "whatsapp": "https://wa.me/917021751691"
+  },
+  "social": {
+    "facebook": "#",
+    "twitter": "#",
+    "instagram": "https://www.instagram.com/elite_car_rental_24x7/"
+  }
+}

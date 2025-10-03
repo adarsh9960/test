@@ -1,0 +1,175 @@
+{
+  "home": {
+    "hero": {
+      "slides": [
+        {
+          "id": 1,
+          "title": "YOUR PREMIUM CAR RENTAL IN MUMBAI",
+          "subtitle": "24×7 Premium Cab Service in Mumbai",
+          "description": "AIRPORT PICKUPS & DROPS 24X7 SERVICES, and wedding / event",
+          "image": "https://itzadarsh.co.in/assets/images/premium_images.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "primaryCta": "Book Now",
+          "secondaryCta": "Call Now",
+          "primaryIcon": "car",
+          "secondaryIcon": "phone"
+        },
+        {
+          "id": 2,
+          "title": "TOP-RATED CLEAN. COMFORT. RELIABLE.",
+          "subtitle": "WITH DRIVER AT BEST PRICE",
+          "description": "DRIVERS YOU CAN TRUST",
+          "image": "https://itzadarsh.co.in/assets/images/hero2.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "primaryCta": "Explore Fleet",
+          "secondaryCta": "Learn More",
+          "primaryIcon": "star",
+          "secondaryIcon": "users"
+        },
+        {
+          "id": 3,
+          "title": "Mumbai Sightseeing Tours",
+          "subtitle": "AIRPORT PICKUPS & DROPS 24X7 SERVICES, and wedding / event",
+          "description": "Discover Mumbai's iconic landmarks with our expert guided tours. Comfortable vehicles and knowledgeable drivers.",
+          "image": "https://itzadarsh.co.in/assets/images/hero3.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "primaryCta": "Book Tour",
+          "secondaryCta": "",
+          "primaryIcon": "mapPin",
+          "secondaryIcon": "calendar"
+        },
+        {
+          "id": 4,
+          "title": "Corporate Travel Solutions",
+          "subtitle": "Business Class Transportation",
+          "description": "Premium corporate travel services with professional drivers and well-maintained fleet for your business needs.",
+          "image": "https://itzadarsh.co.in/assets/images/hero4.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "primaryCta": "Corporate Booking",
+          "secondaryCta": "Contact Us",
+          "primaryIcon": "creditCard",
+          "secondaryIcon": "users"
+        },
+        {
+          "id": 5,
+          "title": "CAR RENTAL IN MUMBAI",
+          "subtitle": "WITH DRIVER AT BEST PRICE",
+          "description": "LUXURY TRAVEL EXPERIENCE PROFESSIONAL DRIVERS",
+          "image": "https://itzadarsh.co.in/assets/images/hero2.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "primaryCta": "Book Now",
+          "secondaryCta": "Learn More",
+          "primaryIcon": "clock",
+          "secondaryIcon": "star"
+        }
+      ]
+    },
+    "about": {
+      "title": "About Elite Cabs 24X7",
+      "content": "Elite Cabs 24X7 is Mumbai's premier taxi service provider, offering reliable, comfortable, and affordable transportation solutions. With years of experience in the industry, we have established ourselves as a trusted name for both local and outstation travel.\n\nOur fleet consists of well-maintained vehicles ranging from economy sedans to luxury cars, all equipped with modern amenities to ensure your comfort and safety. We take pride in our professional drivers who are not just skilled behind the wheel but also courteous and knowledgeable about Mumbai's routes.\n\nAt Elite Cabs 24X7, we understand that your time is valuable. That's why we offer punctual service, transparent pricing, and 24X7 availability to meet all your transportation needs. Whether you need a ride to the airport, a city tour, or an outstation trip, we've got you covered.",
+      "images": [
+        "https://itzadarsh.co.in/assets/images/Untitled-design-1.png?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1",
+        "https://itzadarsh.co.in/assets/images/Untitled-design-3.png?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1",
+        "https://itzadarsh.co.in/assets/images/Untitled-design-4.png?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1",
+        "https://itzadarsh.co.in/assets/images/2.png?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1",
+        "https://itzadarsh.co.in/assets/images/1.png?auto=compress&cs=tinysrgb&w=600&h=400&dpr=1"
+      ]
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Elite Cabs 24X7",
+      "features": [
+        {
+          "id": 1,
+          "icon": "Clock",
+          "title": "24X7 Availability",
+          "description": "With Elite Cabs 24X7 Car Rental Mumbai, reliable customer support is guaranteed around the clock. Day or night, our dedicated team is here to handle your booking, guide your journey, and provide solutions whenever you need them. Whether it’s corporate travel, wedding events, or family trips across Maharashtra, our 24X7 service makes sure you’re never left waiting."
+        },
+        {
+          "id": 2,
+          "icon": "Star",
+          "title": " Premium In-House Fleet",
+          "description": "Elite Cabs 24X7 Car Rental Mumbai takes pride in owning and maintaining our own fleet of vehicles — from Sedans and SUVs to Travellers and Luxury Buses. Unlike agents or middlemen, we manage every car directly to ensure top quality, hygiene, and reliability. Whether it’s a Swift Dzire for local rentals or an Innova Crysta for outstation trips across Maharashtra, our in-house fleet guarantees better service, competitive prices, and a travel experience you can truly trust."
+        },
+        {
+          "id": 3,
+          "icon": "DollarSign",
+          "title": " Affordable Price Guaranteed with Quality Service",
+          "description": "At Elite Cabs 24X7 Car Rental Mumbai, we go beyond just providing cars with drivers — we deliver value you can trust, experiences competitors can’t match, and services that grow with your needs. Our transparent pricing gives you peace of mind, knowing you always get the best deal without hidden costs. With a diverse fleet ranging from sedans to luxury buses, we are ready for everything — from airport transfers and business trips to weddings and long outstation journeys. What makes us different is our 24x7 availability, professional chauffeurs, and commitment to comfort & reliability, making Elite Cabs not just a ride, but your scalable travel partner across Maharashtra."
+        },
+        {
+          "id": 4,
+          "icon": "Users",
+          "title": "Professional Drivers",
+          "description": "At Elite Cabs 24X7 Car Rental Mumbai, punctuality is our promise. Whether it’s an early morning airport pickup, a corporate meeting, or a family trip in Mumbai-Maharashtra, our drivers arrive on time, every time. With GPS-enabled tracking and professional chauffeurs, you can trust us to never let delays disrupt your plans. Your time is valuable — and we make sure you never waste a minute."
+        },
+        {
+          "id": 5,
+          "icon": "Star",
+          "title": "Quality Service",
+          "description": "Choosing Elite Cabs 24X7 means choosing a brand that is ISO Certified Car Rental Company follow for strict quality, safety, and service standards to give you an stress-free travel experience. From vehicle maintenance to customer support, every process is monitored and certified. We don’t just promise quality — we’re certified for it."
+        },
+        {
+          "id": 6,
+          "icon": "Phone",
+          "title": "Easy Booking",
+          "description": "Multiple booking options - phone, app, or website for your convenience."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Book Your Ride",
+          "description": "Call us, use our app, or book online through our website. Provide your pickup location, destination, and preferred time."
+        },
+        {
+          "id": 2,
+          "title": "Get Confirmation",
+          "description": "Receive instant confirmation with driver details, vehicle information, and estimated arrival time."
+        },
+        {
+          "id": 3,
+          "title": "Get driver at doorstep",
+          "description": "Your driver arrives on time, and you enjoy a comfortable, safe ride to your destination."
+        },
+        {
+          "id": 4,
+          "title": "Enjoy Your Journey",
+          "description": "Enjoy Hassle-Free Rides, Anytime with Elite Cabs 24x7"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "id": 1,
+          "question": "How do I book a cab with Elite Cabs 24X7?",
+          "answer": "You can book a cab by calling our 24X7 helpline, using our mobile app, or through our website. Simply provide your pickup location, destination, and preferred time."
+        },
+        {
+          "id": 2,
+          "question": "What are your payment options?",
+          "answer": "We accept multiple payment methods including cash, credit/debit cards, digital wallets, and online payments for your convenience."
+        },
+        {
+          "id": 3,
+          "question": "Do you provide outstation services?",
+          "answer": "Yes, we offer outstation services to nearby cities and tourist destinations. Our rates are competitive and include driver allowances."
+        },
+        {
+          "id": 4,
+          "question": "Are your drivers verified and trained?",
+          "answer": "All our drivers undergo thorough background verification and professional training. They are licensed, experienced, and committed to providing excellent service."
+        },
+        {
+          "id": 5,
+          "question": "What is your cancellation policy?",
+          "answer": "You can cancel your booking free of charge up to 30 minutes before the scheduled pickup time. Late cancellations may incur a nominal fee."
+        },
+        {
+          "id": 6,
+          "question": "Do you provide corporate services?",
+          "answer": "Yes, we offer specialized corporate travel solutions with monthly billing, dedicated account managers, and priority booking for businesses."
+        }
+      ]
+    }
+  }
+}

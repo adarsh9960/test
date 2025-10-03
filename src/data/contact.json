@@ -1,0 +1,43 @@
+{
+  "contact": {
+    "section": {
+      "title": "Contact Us",
+      "description": "Get in touch with us for bookings, inquiries, or feedback"
+    },
+    "info": {
+      "title": "Get in Touch",
+      "items": [
+        {
+          "id": 1,
+          "icon": "Phone",
+          "label": "Phone",
+          "value": "+91 70217 51691"
+        },
+        {
+          "id": 2,
+          "icon": "Mail",
+          "label": "Email",
+          "value": "contact.elitecabsmumbai@gmail.com"
+        },
+        {
+          "id": 3,
+          "icon": "MapPin",
+          "label": "Address",
+          "value": "Mumbai, Maharashtra, India"
+        }
+      ]
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "actions": [
+        {
+          "id": 1,
+          "icon": "MessageCircle",
+          "text": "Chat on WhatsApp",
+          "url": "https://wa.me/917021751691",
+          "color": "blue"
+        }
+      ]
+    }
+  }
+}

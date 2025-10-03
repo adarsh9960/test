@@ -1,0 +1,64 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Taj Hotels",
+      "logo": "https://raw.githubusercontent.com/adarsh9960/glowing-fiesta/refs/heads/main/download.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "name": "Oberoi Group",
+      "logo": "https://adviktravels.com/wp-content/uploads/2016/05/The_Oberoi_Group_Logo-870x480.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "ITC Hotels",
+      "logo": "https://i.pinimg.com/736x/aa/ac/7f/aaac7fece90af08e78868346411f0e72.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "Hyatt",
+      "logo": "https://newsroom.hyatt.com/images/hyatt_logo.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Marriott",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Marriott_hotels_logo14.svg/1280px-Marriott_hotels_logo14.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 6,
+      "name": "Hilton",
+      "logo": "https://i.pinimg.com/originals/a7/fc/9f/a7fc9fc6df15dd4aeda7505925c9f0b9.gif?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 7,
+      "name": "Radisson",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Radisson_logo.svg/1280px-Radisson_logo.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 8,
+      "name": "Accor",
+      "logo": "https://content.app-sources.com/s/46365776925251811/thumbnails/640x480/Accor/Accor_logo_Gold_gradient_RVB_digital-1485501.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 9,
+      "name": "Wyndham",
+      "logo": "https://franchisealpha.com/wp-content/uploads/2018/01/wyndham-logo-1024x585.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 10,
+      "name": "Choice Hotels",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYTlBh9E4EXM1KCv-YRHJoIzQdt7UvmMqhg&s?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 11,
+      "name": "IHG",
+      "logo": "https://yt3.googleusercontent.com/1n23NJ_QrCHT2aEqz1liAuJQS8zDzjek2U_kDih69VXW1ueYBRMQaFjNhg1g_5Gi67Xlb-p6A5Y?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 12,
+      "name": "Best Western",
+      "logo": "https://www.bestwestern.com/content/dam/best-western/brand/brand-logos/best-western-logo.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    }
+  ]
+}

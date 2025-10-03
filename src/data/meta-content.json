@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "formatDetection": {
+      "telephone": true,
+      "date": true,
+      "address": true,
+      "email": true,
+      "url": true
+    },
+    "themeColor": "#facc15",
+    "msapplicationTileColor": "#facc15",
+    "msapplicationConfig": "/browserconfig.xml"
+  },
+  "links": {
+    "canonical": "https://elitecabsmumbai.com",
+    "preconnect": [
+      "https://fonts.googleapis.com",
+      "https://fonts.gstatic.com",
+      "https://www.googletagmanager.com"
+    ],
+    "dnsPrefetch": [
+      "https://www.google-analytics.com",
+      "https://www.googletagmanager.com"
+    ]
+  },
+  "verification": {
+    "googleSiteVerification": "VEyyFNMHbn3pPXL_NpN6NjSqDvLRMeijO88D9p13DFM",
+    "msvalidate": "",
+    "yandexVerification": "",
+    "facebookDomainVerification": ""
+  },
+  "security": {
+    "referrer": "origin-when-cross-origin"
+  }
+}

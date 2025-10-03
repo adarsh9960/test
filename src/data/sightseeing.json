@@ -1,0 +1,166 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Gateway of India",
+      "image": "https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Gateway-Of-India_600-1.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Iconic monument and Mumbai's most famous landmark"
+    },
+    {
+      "id": 2,
+      "name": "Marine Drive",
+      "image": "https://i.pinimg.com/736x/9b/4a/40/9b4a40906dcab5edcb1025518b1f6f7b.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Beautiful waterfront promenade known as Queen's Necklace"
+    },
+    {
+      "id": 3,
+      "name": "Bandra Worli Sea Link",
+      "image": "https://cdn.dnaindia.com/sites/default/files/2019/09/21/869621-bandra-worli-sea-link-dna.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Modern architectural marvel connecting Bandra and Worli"
+    },
+    {
+      "id": 4,
+      "name": "Juhu Beach",
+      "image": "https://images.unsplash.com/photo-1515453814433-52e741686bbc?fm=jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Popular beach destination for locals and tourists"
+    },
+    {
+      "id": 5,
+      "name": "Siddhivinayak Temple",
+      "image": "https://i.pinimg.com/736x/07/b8/1f/07b81f4ede50b565a092313eda0f6bbb.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Famous Hindu temple dedicated to Lord Ganesha"
+    },
+    {
+      "id": 6,
+      "name": "Haji Ali Dargah",
+      "image": "https://www.gosahin.com/go/p/d/t1/1522821601_Haji-Ali-Dargah1.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Beautiful mosque and tomb located in the Arabian Sea"
+    },
+    {
+      "id": 7,
+      "name": "Elephanta Caves",
+      "image": "https://assets.cntraveller.in/photos/60ba04ee1fa22668f02596f6/16:9/w_1024%2Cc_limit/elephantalead.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "UNESCO World Heritage Site with ancient cave temples"
+    },
+    {
+      "id": 8,
+      "name": "Taj Mahal Palace Hotel",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Luxury heritage hotel with stunning architecture"
+    },
+    {
+      "id": 9,
+      "name": "Chhatrapati Shivaji maharaj Terminus",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chatrapati_Shivaji_Terminus_%28Victoria_Terminus_Station%29.jpg/250px-Chatrapati_Shivaji_Terminus_%28Victoria_Terminus_Station%29.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Historic railway station and UNESCO World Heritage Site"
+    },
+    {
+      "id": 10,
+      "name": "Nariman Point",
+      "image": "https://img.staticmb.com/mbcontent/images/crop/uploads/2022/9/Marine-Drive_0_1200.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Mumbai's premier business district"
+    },
+    {
+      "id": 11,
+      "name": "Mount Mary Church",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mount_Mary_Church_%28Bombay%29.jpg/250px-Mount_Mary_Church_%28Bombay%29.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Beautiful Roman Catholic basilica in Bandra"
+    },
+    {
+      "id": 12,
+      "name": "Crawford Market",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Crawford_Market.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Historic market for fresh produce and souvenirs"
+    },
+    {
+      "id": 13,
+      "name": "Mahalakshmi Temple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Mahalaxmi_Temple%2C_Kolhapur.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Ancient temple dedicated to Goddess Mahalakshmi"
+    },
+    {
+      "id": 14,
+      "name": "Girgaon Chowpatty",
+      "image": "https://images.pexels.com/photos/3889845/pexels-photo-3889845.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Famous beach known for street food and festivals"
+    },
+    {
+      "id": 15,
+      "name": "Nehru Planetarium",
+      "image": "https://im.whatshot.in/img/2018/Mar/girgaon-chowpatty-1520424523.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Popular destination for astronomy enthusiasts"
+    },
+    {
+      "id": 16,
+      "name": "Mahim Dargah",
+      "image": "https://static.toiimg.com/thumb/msid-76365736,width-400,height-225,resizemode-72/76365736.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Important religious site for Muslims in Mumbai"
+    },
+    {
+      "id": 17,
+      "name": "Bandra Bandstand",
+      "image": "https://mumbai7.com/wp-content/uploads/2022/03/dreamstime_s_105649659.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Scenic waterfront promenade with celebrity homes"
+    },
+    {
+      "id": 18,
+      "name": "Linking Road",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Linking_road_Bandra%28Mumbai%29.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Famous shopping street for fashion and accessories"
+    },
+    {
+      "id": 19,
+      "name": "Iskcon Temple",
+      "image": "https://substackcdn.com/image/fetch/$s_!1JrW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ee34494-72ed-4134-a06f-c6564538090e_1080x717.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Beautiful temple dedicated to Lord Krishna"
+    },
+    {
+      "id": 20,
+      "name": "Colaba Causeway",
+      "image": "https://media1.thrillophilia.com/filestore/0c2q6sb29aiy9jik8bu7vkjn2ca1_veqww3aozq4nadv1c6tl77cry8l3_shutterstock_1123949642.webp?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Vibrant street market for shopping and dining"
+    },
+    {
+      "id": 21,
+      "name": "Jahangir Art Gallery",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/JAG_From_Outside.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Premier art gallery showcasing Indian artists"
+    },
+    {
+      "id": 22,
+      "name": "Taraporevala Aquarium",
+      "image": "https://travelbizmonitor.com/wp-content/uploads/2025/04/Taraporewal-aquarium-.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "India's oldest aquarium with diverse marine life"
+    },
+    {
+      "id": 23,
+      "name": "Byculla Zoo",
+      "image": "https://www.trawell.in/admin/images/upload/432082234Mumbai-Zoo.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Historic zoo with diverse animal species"
+    },
+    {
+      "id": 24,
+      "name": "Air India Building",
+      "image": "https://images.livemint.com/rf/Image-920x613/LiveMint/Period2/2019/01/17/Photos/Home%20Page/AI-kSzB--621x414@LiveMint.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Iconic skyscraper in Mumbai's skyline"
+    },
+    {
+      "id": 25,
+      "name": "Priya Darshini Park",
+      "image": "https://sceneloc8.com/wp-content/uploads/2024/04/3-18.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Peaceful park in the heart of the city"
+    },
+    {
+      "id": 26,
+      "name": "Ambani House",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/7d/fc/2f/p-9932-antilia-is-a-lavish.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Historic building with architectural significance"
+    },
+    {
+      "id": 27,
+      "name": "Babulnath Temple",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/99/65/95/tempio.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1",
+      "description": "Ancient Shiva temple with stunning views"
+    }
+  ]
+}

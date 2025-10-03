@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "LOCAL RENTALS",
+      "icon": "Car",
+      "description": "From quick errands to full-day plans, Elite Cabs 24X7 makes local travel simple and stress-free. Affordable rates, on-time pickups, and professional drivers — explore your city with total comfort.",
+      "image": "https://auto.hindustantimes.com/cms-images/marutisuzuki_ertiga/images/exterior_marutisuzuki-ertiga2022_front-left-side_1150x666.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "MUMBAI SIGHTSEEING",
+      "icon": "MapPin",
+      "description": "Discover Mumbai’s iconic landmarks with Elite Cabs 24X7. From Gateway of India to Marine Drive, enjoy stress-free sightseeing in comfort with our verified drivers and premium fleet.",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-360x240/06/6a/c4/f0.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 3,
+      "title": "OUTSTATION TRIPS",
+      "icon": "Route",
+      "description": "Travel beyond city limits with Elite Cabs 24X7. Whether it’s a weekend getaway or a long journey across Maharashtra, our reliable drivers and well-maintained fleet ensure safe, comfortable, and on-time travel.",
+      "image": "https://plus.unsplash.com/premium_photo-1661885251699-b242dd1e6e20?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 4,
+      "title": "AIRPORT PICKUP & DROP",
+      "icon": "Route",
+      "description": "Never miss a flight or wait for a cab again. Elite Cabs 24X7 ensures timely airport pickups and drops with professional drivers, clean cars, and 24x7 availability — stress-free travel, always.",
+      "image": "https://www.vietnamairlines.com/~/media/SEO-images/2025%20SEO/Traffic%20TA/MB/san-bay-mumbai/san-bay-mumbai-thumb.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 5,
+      "title": "PREMIUM FLEET",
+      "icon": "Star",
+      "description": "Elite Cabs 24X7 Car Rental Mumbai takes pride in owning and maintaining our own fleet of vehicles  from Sedans and SUVs to Travellers and Luxury Buses. Unlike agents or middlemen, we manage every car directly to ensure top quality, hygiene, and reliability.",
+      "image": "https://www.drivingdynamics.com/hubfs/Buying_a_New_Fleet_Vehicle-1.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 6,
+      "title": "ISO CERTIFIED",
+      "icon": "Award",
+      "description": "Choosing Elite Cabs 24X7 means choosing a brand that is ISO Certified Car Rental Company follow for strict quality, safety, and service standards to give you an stress-free travel experience. From vehicle maintenance to customer support, every process is monitored and certified. We don’t just promise quality — we’re certified for it.",
+      "image": "https://img.freepik.com/premium-vector/iso-certified-company-emblem-design_1135235-2279.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 7,
+      "title": "TRUSTED DRIVERS",
+      "icon": "Shield",
+      "description": "At Elite Cabs 24X7 Car Rental Mumbai, punctuality is our promise. Whether it’s an early morning airport pickup, a corporate meeting, or a family trip in Mumbai-Maharashtra, our drivers arrive on time, every time. With GPS-enabled tracking and professional chauffeurs, you can trust us to never let delays disrupt your plans. Your time is valuable and we make sure you never waste a minute.",
+      "image": "https://justcabhire.com/wp-content/uploads/2024/07/5-2.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 8,
+      "title": "ONE-WAY DROP",
+      "icon": "Route",
+      "description": "Pay only for the distance you travel! With Elite Cabs 24X7, our one-way drop service offers affordable, hassle-free rides across Maharashtra with trusted drivers and well-maintained cars.",
+      "image": "https://justcabhire.com/wp-content/uploads/2024/07/Untitled-design-40.png?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 9,
+      "title": "WEDDING CARS",
+      "icon": "route",
+      "description": "Make your big day extra special with Elite Cabs 24X7. From luxury cars to spacious rides for guests, we provide reliable, stylish, and comfortable wedding travel solutions you can count on.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/2/RA/GT/WS/150930028/wedding-car-flower-decoration-services-in-bhubaneswar-and-cuttack-500x500.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 10,
+      "title": "CORPORATE TRAVEL",
+      "icon": "Route",
+      "description": "Professional, punctual, and reliable — Elite Cabs 24X7 is the perfect travel partner for businesses. From daily office commutes to corporate events, we ensure smooth, comfortable rides for your team and clients.",
+      "image": "https://justcabhire.com/wp-content/uploads/2024/07/Untitled-design-72-768x512.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    },
+    {
+      "id": 11,
+      "title": "FAMILY & BUSINESS TRIPS",
+      "icon": "Route",
+      "description": "Travel together with ease! Elite Cabs 24X7 offers spacious, well-maintained vehicles and verified drivers for family vacations or business tours across Maharashtra — comfort and safety guaranteed.",
+      "image": "https://api.eremedia.com/wp-content/uploads/2017/09/business-travel-bleisure.jpg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=1"
+    }
+  ]
+}

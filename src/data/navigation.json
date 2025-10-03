@@ -1,0 +1,100 @@
+{
+  "mainNav": [
+    {
+      "id": 1,
+      "name": "Home",
+      "href": "#home"
+    },
+    {
+      "id": 2,
+      "name": "About",
+      "href": "#about"
+    },
+    {
+      "id": 3,
+      "name": "Services",
+      "href": "#services"
+    },
+    {
+      "id": 4,
+      "name": "Categories",
+      "href": "#fleet"
+    },
+    {
+      "id": 5,
+      "name": "Gallery",
+      "href": "#gallery"
+    },
+    {
+      "id": 6,
+      "name": "Blog",
+      "href": "#blog"
+    },
+    {
+      "id": 7,
+      "name": "Rate Service",
+      "href": "#rate-service"
+    },
+    {
+      "id": 8,
+      "name": "Pay Now",
+      "href": "#pay-now"
+    },
+    {
+      "id": 9,
+      "name": "Contact",
+      "href": "#contact"
+    }
+  ],
+  "footerLinks": {
+    "quickLinks": [
+      {
+        "id": 1,
+        "name": "Home",
+        "href": "#home"
+      },
+      {
+        "id": 2,
+        "name": "About Us",
+        "href": "#about"
+      },
+      {
+        "id": 3,
+        "name": "Services",
+        "href": "#services"
+      },
+      {
+        "id": 4,
+        "name": "Our Fleet",
+        "href": "#fleet"
+      },
+      {
+        "id": 5,
+        "name": "Gallery",
+        "href": "#gallery"
+      },
+      {
+        "id": 6,
+        "name": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "legalLinks": [
+      {
+        "id": 1,
+        "name": "Privacy Policy",
+        "href": "#"
+      },
+      {
+        "id": 2,
+        "name": "Terms of Service",
+        "href": "#"
+      },
+      {
+        "id": 3,
+        "name": "Refund Policy",
+        "href": "#"
+      }
+    ]
+  }
+}

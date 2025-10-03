@@ -1,0 +1,72 @@
+{
+  "count": 28593,
+  "average": 4.8,
+ "items": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "rating": 5,
+      "comment": "Excellent service! Very professional and punctual."
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "rating": 5,
+      "comment": "Best cab service — highly recommended!"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "rating": 5,
+      "comment": "Outstanding service, will definitely use again."
+    },
+    {
+      "id": 4,
+      "name": "Sarah Davis",
+      "rating": 5,
+      "comment": "Luxury vehicles and professional drivers. Perfect for special occasions."
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "rating": 5,
+      "comment": "Outstanding customer service and punctuality."
+    },
+    {
+      "id": 6,
+      "name": "Laura Martinez",
+      "rating": 5,
+      "comment": "Exceptional service for our corporate event."
+    },
+   {
+    "id": 7,
+    "name": "Olivia Taylor",
+    "rating": 5,
+    "comment": "Smooth booking process and great communication throughout."
+  },
+  {
+    "id": 8,
+    "name": "Daniel Anderson",
+    "rating": 5,
+    "comment": "Impressed with the punctuality and overall professionalism."
+  },
+  {
+    "id": 9,
+    "name": "Sophia Clark",
+    "rating": 5,
+    "comment": "The car was spotless and the ride was extremely comfortable."
+  },
+  {
+    "id": 10,
+    "name": "James Thompson",
+    "rating": 5,
+    "comment": "Fantastic experience — quick response and very reliable service."
+  },
+  {
+    "id": 11,
+    "name": "Isabella Lewis",
+    "rating": 5,
+    "comment": "Truly outstanding! Will definitely book again for future travel."
+  }
+ ]
+}

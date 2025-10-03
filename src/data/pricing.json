@@ -1,0 +1,60 @@
+{
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Best Quote guaranteed with no hidden charges",
+    "mainTitle": "Fair and Transparent Pricing",
+    "mainDescription": "At Elite Cabs 24X7, we believe in transparent pricing with no hidden charges. Our rates are competitive and reflect the quality of service we provide. Get the best quote for your journey with our clear pricing structure.",
+    "badge": {
+      "text": "Best Quote"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Local Rides",
+        "description": "City travel and daily commutes",
+        "buttonText": "Get Quote"
+      },
+      {
+        "id": 2,
+        "name": "Outstation",
+        "description": "Long-distance travel and tours",
+        "buttonText": "Get Quote"
+      },
+      {
+        "id": 3,
+        "name": "Corporate",
+        "description": "Business travel solutions",
+        "buttonText": "Get Quote"
+      }
+    ],
+    "includedFeatures": {
+      "title": "What's Included",
+      "features": [
+        {
+          "id": 1,
+          "text": "Professional driver"
+        },
+        {
+          "id": 2,
+          "text": "Well-maintained vehicle"
+        },
+        {
+          "id": 3,
+          "text": "24X7 customer support"
+        },
+        {
+          "id": 4,
+          "text": "GPS tracking"
+        },
+        {
+          "id": 5,
+          "text": "Air conditioning"
+        },
+        {
+          "id": 6,
+          "text": "No hidden charges"
+        }
+      ]
+    }
+  }
+}
