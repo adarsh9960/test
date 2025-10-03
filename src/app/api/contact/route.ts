@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
     // Email to admin
     const adminMailOptions = {
       from: 'postman@itzadarsh.co.in',
-      to: 'admin@itzadarsh.co.in',
+      to: 'contact.elitecabsmumbai@gmail.com',
       replyTo: body.email,
       subject: `New Contact Form Submission from ${body.name}`,
       html: `
