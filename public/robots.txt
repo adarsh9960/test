@@ -1,0 +1,90 @@
+# Robots.txt for Elite Cabs 24X7 - Mumbai Cab Service
+# Website: https://elitecabsmumbai.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://elitecabsmumbai.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /data/
+Disallow: *.json$
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /temp/
+
+# Block unnecessary file types
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Allow search engines to access important resources
+Allow: /assets/
+Allow: /images/
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+# Additional SEO directives
+# Visit frequency for search engines
+User-agent: *
+Crawl-delay: 1
+
+# Noindex for development/staging environments (if applicable)
+# Disallow: /staging/
+# Disallow: /dev/
+
+# Allow major search engines to crawl the site
+User-agent: Googlebot
+Crawl-delay: 0
+
+User-agent: Bingbot
+Crawl-delay: 0
+
+User-agent: Slurp
+Crawl-delay: 0
+
+# End of robots.txt
