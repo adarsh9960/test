@@ -8,7 +8,6 @@ Allow: /
 Sitemap: https://elitecabsmumbai.com/sitemap.xml
 
 # Crawl delay (optional)
-Crawl-delay: 1
 
 # Block common bot paths
 Disallow: /api/
@@ -52,26 +51,6 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Block bad bots
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-User-agent: BLEXBot
-Disallow: /
-
-# Additional SEO directives
-# Visit frequency for search engines
-User-agent: *
-Crawl-delay: 1
 
 # Noindex for development/staging environments (if applicable)
 # Disallow: /staging/
@@ -79,12 +58,9 @@ Crawl-delay: 1
 
 # Allow major search engines to crawl the site
 User-agent: Googlebot
-Crawl-delay: 0
 
 User-agent: Bingbot
-Crawl-delay: 0
 
 User-agent: Slurp
-Crawl-delay: 0
 
 # End of robots.txt
