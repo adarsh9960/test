@@ -300,6 +300,7 @@ export default function RootLayout({
         <meta name="business:hours:day" content="monday,tuesday,wednesday,thursday,friday,saturday,sunday" />
         <meta name="business:hours:start" content="00:00" />
         <meta name="business:hours:end" content="23:59" />
+        <meta name="google-adsense-account" content="ca-pub-2355033797574310">
         
         {/* Contact info meta tags */}
         <meta name="contact" content="+917021751691" />
