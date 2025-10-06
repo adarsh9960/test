@@ -2,8 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Admin credentials
 const ADMIN_CREDENTIALS = [
-  { username: 'contact.elitecabsmumbai.com', password: 'admin123' },
-  { username: 'avirajjha6114@gmail.com', password: 'admin123' },
+  { username: 'contact.elitecabsmumbai@gmail.com', password: '7021751691' },
   { username: 'admin@itzadarsh.co.in', password: 'admin123' },
 ];
 
