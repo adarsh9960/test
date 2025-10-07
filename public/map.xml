@@ -1,14 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://elitecabsmumbai.com/</loc>
-  <lastmod>2025-10-06</lastmod>
-      <priority>1.0</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Main Page -->
+  <url>
+    <loc>https://elitecabsmumbai.com</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Service Pages -->
+  <url>
+    <loc>https://elitecabsmumbai.com#services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Airport Transfer Service -->
+  <url>
+    <loc>https://elitecabsmumbai.com#services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Local Taxi Service -->
+  <url>
+    <loc>https://elitecabsmumbai.com#services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Corporate Travel -->
+  <url>
+    <loc>https://elitecabsmumbai.com#services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Wedding & Event Transportation -->
+  <url>
+    <loc>https://elitecabsmumbai.com#services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Fleet Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#fleet</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- About Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Gallery Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#gallery</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Sightseeing Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#sightseeing</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Testimonials Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#testimonials</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Clients Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#clients</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Pricing Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#pricing</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Why Choose Us Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#why-choose-us</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- How It Works Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#how-it-works</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- FAQ Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#faq</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Rate Service Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#rate-service</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Contact Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Popular Ride Section -->
+  <url>
+    <loc>https://elitecabsmumbai.com#popular-ride</loc>
+    <lastmod>2025-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
 </urlset>
