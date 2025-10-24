@@ -41,11 +41,11 @@ export async function POST(request: NextRequest) {
     // Email to admin
     const adminMailOptions = {
       from: 'postman@itzadarsh.co.in',
-      to: 'contact.elitecabsmumbai@gmail.com',
+      to: 'admin@itzadarsh.co.in',
       replyTo: body.email,
-      subject: `New Contact Form Submission from ${body.name}`,
+      subject: `New Inquiry from ${body.name}`,
       html: `
-        <h2>New Contact Form Submission</h2>
+        <h2>New Inquiry from</h2>
         <p><strong>Name:</strong> ${body.name}</p>
         <p><strong>Email:</strong> ${body.email}</p>
         <p><strong>Phone:</strong> ${body.phone}</p>
@@ -80,12 +80,12 @@ export async function POST(request: NextRequest) {
         
         <p>For immediate assistance, you can:</p>
         <ul>
-          <li>Call us at: <a href="tel:+917021751691">+91 7021751691</a></li>
-          <li>WhatsApp us at: <a href="https://wa.me/917021751691">+91 7021751691</a></li>
+          <li>Call us at: <a href="tel:+919960416025">+91 9960416025</a></li>
+          <li>WhatsApp us at: <a href="https://wa.me/919960416025">+91 9960416025</a></li>
         </ul>
         
         <p>Best regards,<br>
-        <strong>Elite Cabs Team</strong></p>
+        <strong>Elite Cabs</strong></p>
         
         <hr>
         <p><em>This is an automated response. Please do not reply to this email.</em></p>
