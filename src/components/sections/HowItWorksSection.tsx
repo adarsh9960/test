@@ -30,8 +30,8 @@ const stepIconColors = [
 ];
 const buttonTexts = ['WhatsApp', 'Call', 'Book', 'Chatbot'];
 const buttonActions = [
-  'https://wa.me/917021751691',
-  'tel:+917021751691',
+  'https://wa.me/919960416025',
+  'tel:+919960416025',
   '#contact',
   '#chat'
 ];
