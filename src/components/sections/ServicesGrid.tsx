@@ -77,7 +77,7 @@ export default function ServicesGrid({ services }: ServicesGridProps) {
                 </p>
                 <FancyButton className="w-full"
   onClick={() => {
-    const whatsappNumber = "+917021751691";
+    const whatsappNumber = "+919960416025";
     const message = encodeURIComponent("Hi, I want to book your service.");
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   }}>
@@ -129,7 +129,7 @@ export default function ServicesGrid({ services }: ServicesGridProps) {
                     </p>
                     <FancyButton className="w-full"
   onClick={() => {
-    const whatsappNumber = "+917021751691";
+    const whatsappNumber = "+919960416025";
     const message = encodeURIComponent("Hi, I want to book your service.");
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   }}>
