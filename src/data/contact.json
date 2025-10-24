@@ -11,13 +11,13 @@
           "id": 1,
           "icon": "Phone",
           "label": "Phone",
-          "value": "+91 70217 51691"
+          "value": "+91 99604 16025"
         },
         {
           "id": 2,
           "icon": "Mail",
           "label": "Email",
-          "value": "contact.elitecabsmumbai@gmail.com"
+          "value": "help@itzadarsh.co.in"
         },
         {
           "id": 3,
@@ -34,7 +34,7 @@
           "id": 1,
           "icon": "MessageCircle",
           "text": "Chat on WhatsApp",
-          "url": "https://wa.me/917021751691",
+          "url": "https://wa.me/919960416025",
           "color": "blue"
         }
       ]
