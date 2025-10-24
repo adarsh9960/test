@@ -39,7 +39,7 @@ export default function Hero({ slides }: HeroProps) {
       {/* Button positioned at bottom left */}
       <div className="absolute bottom-4 md:bottom-8 left-4 md:left-8 z-20">
         <a
-          href="tel:+919876543210"
+          href="tel:+919960416025"
           className="group relative inline-flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-green-600 hover:bg-green-700 rounded-full shadow-2xl transform transition-all duration-300 hover:scale-110 animate-popup"
           aria-label="Call us now"
         >
