@@ -10,7 +10,7 @@ export default function PricingSection() {
   const handleWhatsAppClick = (e: React.MouseEvent, message: string) => {
     e.preventDefault();
     createRipple(e as any);
-    const whatsappUrl = buildWhatsApp('917021751691', message);
+    const whatsappUrl = buildWhatsApp('919960416025', message);
     window.open(whatsappUrl, '_blank');
   };
 
