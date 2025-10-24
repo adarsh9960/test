@@ -25,7 +25,7 @@ export default function InfiniteCallIcon() {
   }, []);
 
   const handleCallClick = () => {
-    window.open('tel:+917021751691', '_self');
+    window.open('tel:+919960416025', '_self');
   };
 
   return (
@@ -72,7 +72,7 @@ export default function InfiniteCallIcon() {
         pointer-events-none whitespace-nowrap
         z-20
       ">
-        Call Now: +91 70217 51691
+        Call Now: +91 99604 16025
         <div className="absolute top-full left-1/2 transform -translate-x-1/2 -mt-1">
           <div className="border-4 border-transparent border-t-gray-800"></div>
         </div>
