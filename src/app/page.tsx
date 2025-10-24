@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import Head from 'next/head';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/ui-custom/Hero';
@@ -18,7 +19,6 @@ import RateServiceSection from '@/components/sections/RateServiceSection';
 import ContactForm from '@/components/ui-custom/ContactForm';
 import CTAFloater from '@/components/ui-custom/CTAFloater';
 import ScrollToTopButton from '@/components/ui-custom/ScrollToTopButton';
-import AIChatButton from '@/components/ui-custom/AIChatButton';
 import { createRipple } from '@/lib/button-utils';
 import { initializeAnimations, initializeSmoothScroll } from '@/lib/animations';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
@@ -33,9 +33,6 @@ import ratingsData from '@/data/ratings.json';
 import partnersData from '@/data/partners.json';
 import contactData from '@/data/contact.json';
 
-// Force restart comment - updated at 17:15
-console.log('Page component loaded');
-
 export default function Home() {
   const [currentRating, setCurrentRating] = useState({
     count: ratingsData.count,
@@ -43,26 +40,17 @@ export default function Home() {
   });
 
   useEffect(() => {
-    // Initialize animations
     const animationObserver = initializeAnimations();
-    
-    // Initialize smooth scrolling
     initializeSmoothScroll();
-
-    // Cleanup on unmount
     return () => {
-      if (animationObserver) {
-        animationObserver.disconnect();
-      }
+      if (animationObserver) animationObserver.disconnect();
     };
   }, []);
 
   const handleRatingSubmit = (newRating: any) => {
-    // In a real app, this would update the backend
-    // For now, we'll just update the local state
     const newCount = currentRating.count + 1;
-    const newAverage = ((currentRating.average * currentRating.count) + newRating.rating) / newCount;
-    
+    const newAverage =
+      ((currentRating.average * currentRating.count) + newRating.rating) / newCount;
     setCurrentRating({
       count: newCount,
       average: Number(newAverage.toFixed(1)),
@@ -71,42 +59,91 @@ export default function Home() {
 
   const handleContactSubmit = (data: any) => {
     console.log('Contact form submitted:', data);
-    // In a real app, this would send the data to your API
+  };
+
+  // JSON-LD for Elite Cabs 24X7
+  const jsonLdData = {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "@id": "https://elitecabsmumbai.com/#company",
+    "name": "Elite Cabs 24X7",
+    "url": "https://elitecabsmumbai.com",
+    "logo": "https://elitecabsmumbai.com/images/logo.png",
+    "image": "https://elitecabsmumbai.com/images/elite-cabs.jpg",
+    "description": "Elite Cabs 24X7 is Mumbai's premier taxi service provider, offering reliable, comfortable, and affordable transportation solutions. With years of experience in the industry, we have established ourselves as a trusted name for both local and outstation travel.",
+    "telephone": "+91 70217 51691",
+    "email": "contact.elitecabsmumbai@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Not specified",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "postalCode": "400001",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.facebook.com/elitecabsmumbai",
+      "https://www.instagram.com/elitecabsmumbai"
+    ],
+    "serviceArea": {
+      "@type": "Place",
+      "name": "Mumbai Metropolitan Region"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://elitecabsmumbai.com",
+      "priceCurrency": "INR",
+      "eligibleRegion": "IN-MH",
+      "price": "Variable",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "minPrice": "500",
+        "maxPrice": "5000",
+        "priceCurrency": "INR",
+        "eligibleRegion": "IN-MH"
+      }
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "serviceType": [
+      "Local Rentals",
+      "Outstation Trips",
+      "Airport Pickup & Drop",
+      "Wedding Cars",
+      "Corporate Travel",
+      "Family & Business Trips",
+      "One-Way Drop",
+      "Mumbai Sightseeing"
+    ]
   };
 
   return (
     <div className="min-h-screen flex flex-col">
+      {/* Inject JSON-LD in Head */}
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
+        />
+      </Head>
+
       <Header />
-      
+
       <main className="flex-1">
-        {/* Hero Section */}
         <Hero slides={pagesData.home.hero.slides} />
-        
-        {/* About Section */}
+
         <AboutSection
           title={pagesData.home.about.title}
           content={pagesData.home.about.content}
           images={pagesData.home.about.images}
         />
-        
-        {/* Services Grid */}
+
         <ServicesGrid services={servicesData.services} />
-        
-        {/* Fleet Section */}
         <FleetSection categories={fleetData.categories} />
-        
-        {/* Sightseeing Section */}
         <SightseeingSection places={sightseeingData.places} />
-        
-        {/* Gallery Section */}
         <GallerySection images={galleryData.images} />
-        
-        {/* Why Choose Us Section */}
         <WhyChooseUsSection features={pagesData.home.whyChooseUs.features} />
-        
-        {/* How It Works Section */}
         <HowItWorksSection steps={pagesData.home.howItWorks.steps} />
-        
+
         {/* Contact Section */}
         <section id="contact" className="py-16" style={{ backgroundColor: '#FFFFFF' }}>
           <div className="container mx-auto px-4">
@@ -118,15 +155,11 @@ export default function Home() {
                 {contactData.contact.section.description}
               </p>
             </div>
-            
+
             <div className="max-w-4xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12">
-                {/* Contact Form */}
-                <div>
-                  <ContactForm onSubmit={handleContactSubmit} />
-                </div>
-                
-                {/* Contact Info & Map */}
+                <ContactForm onSubmit={handleContactSubmit} />
+
                 <div className="space-y-6">
                   <div className="bg-card rounded-lg p-6 shadow-lg">
                     <h3 className="text-xl font-semibold text-foreground mb-4">
@@ -134,9 +167,10 @@ export default function Home() {
                     </h3>
                     <div className="space-y-4">
                       {contactData.contact.info.items.map((item) => {
-                        const IconComponent = item.icon === 'Phone' ? Phone :
-                                              item.icon === 'Mail' ? Mail :
-                                              MapPin;
+                        const IconComponent =
+                          item.icon === 'Phone' ? Phone :
+                          item.icon === 'Mail' ? Mail :
+                          MapPin;
                         return (
                           <div key={item.id} className="flex items-center space-x-3">
                             <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
@@ -151,16 +185,14 @@ export default function Home() {
                       })}
                     </div>
                   </div>
-                  
-                  {/* Quick Actions */}
+
                   <div className="bg-card rounded-lg p-6 shadow-lg">
                     <h3 className="text-xl font-semibold text-foreground mb-4">
                       {contactData.contact.quickActions.title}
                     </h3>
                     <div className="space-y-3">
                       {contactData.contact.quickActions.actions.map((action) => {
-                        const IconComponent = action.icon === 'Phone' ? Phone :
-                                              MessageCircle;
+                        const IconComponent = action.icon === 'Phone' ? Phone : MessageCircle;
                         return (
                           <a
                             key={action.id}
@@ -185,34 +217,20 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
-        
-        {/* Merged Excellence Section */}
+
         <MergedExcellenceSection
           testimonials={ratingsData.items}
           averageRating={currentRating.average}
           totalRatings={currentRating.count}
         />
 
-        {/* Clients Section */}
         <ClientsSection clients={partnersData.clients} />
-        
-        {/* Rate Service Section */}
-        <RateServiceSection
-          onSubmit={handleRatingSubmit}
-          currentRating={currentRating}
-        />
-        
-        {/* FAQ Section */}
+        <RateServiceSection onSubmit={handleRatingSubmit} currentRating={currentRating} />
         <FAQSection faqs={pagesData.home.faq.items} />
       </main>
 
       <Footer rating={currentRating} />
-      
-      {/* CTA Floater */}
       <CTAFloater />
-
-      {/* Scroll to Top Button */}
       <ScrollToTopButton />
     </div>
   );
