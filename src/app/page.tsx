@@ -68,11 +68,11 @@ export default function Home() {
     "@id": "https://elitecabsmumbai.com/#company",
     "name": "Elite Cabs 24X7",
     "url": "https://elitecabsmumbai.com",
-    "logo": "https://elitecabsmumbai.com/images/logo.png",
-    "image": "https://elitecabsmumbai.com/images/elite-cabs.jpg",
+    "logo": "https://www.elitecabsmumbai.com/favicon.ico",
+    "image": "https://www.elitecabsmumbai.com/elite-cabs-logo-blue.png",
     "description": "Elite Cabs 24X7 is Mumbai's premier taxi service provider, offering reliable, comfortable, and affordable transportation solutions. With years of experience in the industry, we have established ourselves as a trusted name for both local and outstation travel.",
-    "telephone": "+91 70217 51691",
-    "email": "contact.elitecabsmumbai@gmail.com",
+    "telephone": "+91 99604 16025",
+    "email": "help@itzadarsh.co.in",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Not specified",
@@ -82,8 +82,8 @@ export default function Home() {
       "addressCountry": "IN"
     },
     "sameAs": [
-      "https://www.facebook.com/elitecabsmumbai",
-      "https://www.instagram.com/elitecabsmumbai"
+      "https://www.facebook.com/Adarsh.2332004/",
+      "https://www.instagram.com/itzadarsh.co.in/"
     ],
     "serviceArea": {
       "@type": "Place",
