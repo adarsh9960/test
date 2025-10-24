@@ -63,7 +63,7 @@ export default function FleetSection({ categories }: FleetSectionProps) {
                   ))}
                 </div>
                 <FancyButton className="w-full" onClick={() => {
-    const whatsappNumber = "+9960416025";
+    const whatsappNumber = "+919960416025";
     const message = encodeURIComponent("Hi, I want to book your service.");
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   }}>
@@ -119,7 +119,7 @@ export default function FleetSection({ categories }: FleetSectionProps) {
                       ))}
                     </div>
                     <FancyButton className="w-full" onClick={() => {
-    const whatsappNumber = "+9960416025";
+    const whatsappNumber = "+919960416025";
     const message = encodeURIComponent("Hi, i want to view your fleet.");
     window.open(`https://wa.me/${whatsappNumber}?text=${message}`, "_blank");
   }}>
