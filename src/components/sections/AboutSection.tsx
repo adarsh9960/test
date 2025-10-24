@@ -60,10 +60,19 @@ export default function AboutSection({ title, content, images }: AboutSectionPro
               ))}
             </div>
             <div className="flex items-center gap-4">
-              <FancyButton className="animate-popup">
-                Know More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </FancyButton>
+              <FancyButton
+  className="animate-popup"
+  onClick={() =>
+    window.open(
+      "https://blog.itzadarsh.co.in/ai/post?slug=elite-cabs-mumbai-reliable-ride",
+      "_blank"
+    )
+  }
+>
+  Know More
+  <ArrowRight className="ml-2 h-4 w-4" />
+</FancyButton>
+
               <InfiniteCallIcon />
             </div>
           </div>
