@@ -122,11 +122,11 @@ export default function CTAFloater() {
   };
 
   const handleCallClick = () => {
-    window.open('tel:+917021751691', '_self');
+    window.open('tel:+919960416025', '_self');
   };
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/917021751691', '_blank');
+    window.open('https://wa.me/919960416025', '_blank');
   };
 
   const handleBookingClick = () => {
