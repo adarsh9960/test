@@ -150,18 +150,6 @@ export default function Footer({ rating }: FooterProps) {
               <p className="text-sm opacity-75">
                 © {currentYear} {cleanedCopy}
               </p>
-
-              <p className="text-sm opacity-75 mt-1">
-                Designed by{' '}
-                <a 
-                  href={company.designer.url} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:underline transition-colors"
-                >
-                  {company.designer.name}
-                </a>
-              </p>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {legalLinks.map((link) => (
