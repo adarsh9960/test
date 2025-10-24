@@ -34,7 +34,7 @@ export default function WhyChooseUsSection({ features }: WhyChooseUsSectionProps
   };
 
   const handleWhatsAppClick = (message: string) => {
-    const whatsappUrl = buildWhatsApp('917021751691', message);
+    const whatsappUrl = buildWhatsApp('919960416025', message);
     window.open(whatsappUrl, '_blank');
   };
 
