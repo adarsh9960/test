@@ -2,13 +2,13 @@ import { NextRequest, NextResponse } from 'next/server';
 import ZAI from 'z-ai-web-dev-sdk';
 
 // CHANGE_PHONE_AND_MESSAGES_HERE
-const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '917021751691';
+const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_PHONE || '919960416025';
 const WHATSAPP_PRE_TEXT = "Hi, I'd like to know about your cab rates.";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_PRE_TEXT)}`;
 
 // NOTE: Change PHONE and messages in .env or config file
 // Example .env.example
-// NEXT_PUBLIC_WHATSAPP_PHONE=917021751691
+// NEXT_PUBLIC_WHATSAPP_PHONE=+91 99604 16025
 // NEXT_PUBLIC_GLM_API_KEY=your_glm_key_here
 
 // keywords (trimmed, lowercase)
@@ -45,8 +45,8 @@ export async function POST(request: NextRequest) {
     // Fallback responses for common queries when AI is not available
     const fallbackResponses = {
       'booking': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at +91 99604 16025\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
-      'book': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at ++91 99604 16025\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
-      'airport': 'We provide 24/7 airport transfer services in Mumbai. For airport pickups and drops:\n• Call: +91 70217 51691\n• WhatsApp: +91 70217 51691\n• Use our contact form\n\nWhich airport are you traveling to/from?',
+      'book': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at +91 99604 16025\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
+      'airport': 'We provide 24/7 airport transfer services in Mumbai. For airport pickups and drops:\n• Call: +91 99604 16025\n• WhatsApp: +91 99604 16025\n• Use our contact form\n\nWhich airport are you traveling to/from?',
       'mumbai': 'Elite Cabs 24X7 provides comprehensive taxi services throughout Mumbai including:\n• Airport transfers\n• Local city tours\n• Corporate travel\n• Wedding transportation\n• Outstation trips\n\nHow can I help you with your Mumbai travel needs?',
       'contact': 'You can reach Elite Cabs 24X7 through:\n• Phone: +91 99604 16025\n• Email: contact@itzadarsh.co.in\n• WhatsApp: +91 99604 16025\n• Contact form on our website\n\nHow would you like to get in touch?',
       'service': 'Elite Cabs 24X7 offers:\n• Airport transfers (24/7)\n• Local taxi service\n• Corporate travel\n• Wedding & event transportation\n• Outstation trips\n• Sightseeing tours\n\nWhich service are you interested in?',
@@ -112,7 +112,7 @@ Keep answers concise, helpful, and professional.`;
       console.log('AI service unavailable, using fallback:', aiError);
       
       // If AI fails, provide a helpful fallback response
-      const genericFallback = 'I\'m here to help you with Elite Cabs 24X7 services! I can assist with:\n\n• Cab bookings\n• Airport transfers\n• Local taxi services\n• Corporate travel\n• Wedding transportation\n• Outstation trips\n\nFor specific rates and detailed information, please contact us on WhatsApp or call +91 70217 51691.\n\nHow can I help you today?';
+      const genericFallback = 'I\'m here to help you with Elite Cabs 24X7 services! I can assist with:\n\n• Cab bookings\n• Airport transfers\n• Local taxi services\n• Corporate travel\n• Wedding transportation\n• Outstation trips\n\nFor specific rates and detailed information, please contact us on WhatsApp or call +91 99604 16025.\n\nHow can I help you today?';
 
       return NextResponse.json({
         response: genericFallback,
