@@ -44,11 +44,11 @@ export async function POST(request: NextRequest) {
 
     // Fallback responses for common queries when AI is not available
     const fallbackResponses = {
-      'booking': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at +91 70217 51691\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
-      'book': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at +91 70217 51691\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
+      'booking': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at +91 99604 16025\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
+      'book': 'To book a cab with Elite Cabs 24X7, you can:\n1. Call us at ++91 99604 16025\n2. Use our contact form on the website\n3. WhatsApp us for quick booking\n\nWhat type of booking are you looking for?',
       'airport': 'We provide 24/7 airport transfer services in Mumbai. For airport pickups and drops:\n• Call: +91 70217 51691\n• WhatsApp: +91 70217 51691\n• Use our contact form\n\nWhich airport are you traveling to/from?',
       'mumbai': 'Elite Cabs 24X7 provides comprehensive taxi services throughout Mumbai including:\n• Airport transfers\n• Local city tours\n• Corporate travel\n• Wedding transportation\n• Outstation trips\n\nHow can I help you with your Mumbai travel needs?',
-      'contact': 'You can reach Elite Cabs 24X7 through:\n• Phone: +91 70217 51691\n• Email: contact.elitecabsmumbai@gmail.com\n• WhatsApp: +91 70217 51691\n• Contact form on our website\n\nHow would you like to get in touch?',
+      'contact': 'You can reach Elite Cabs 24X7 through:\n• Phone: +91 99604 16025\n• Email: contact@itzadarsh.co.in\n• WhatsApp: +91 99604 16025\n• Contact form on our website\n\nHow would you like to get in touch?',
       'service': 'Elite Cabs 24X7 offers:\n• Airport transfers (24/7)\n• Local taxi service\n• Corporate travel\n• Wedding & event transportation\n• Outstation trips\n• Sightseeing tours\n\nWhich service are you interested in?',
       'cab': 'Elite Cabs 24X7 provides reliable cab services with:\n• Professional drivers\n• Well-maintained vehicles\n• 24/7 availability\n• Transparent pricing\n• Easy booking\n\nWhat type of cab service do you need?',
       'taxi': 'Elite Cabs 24X7 offers premium taxi services:\n• Airport transfers\n• Local transportation\n• Outstation trips\n• Corporate travel\n• Special event transportation\n\nHow can I assist you with your taxi needs?'
@@ -125,7 +125,7 @@ Keep answers concise, helpful, and professional.`;
     console.error('Chat API error:', err);
     return NextResponse.json({ 
       error: 'Failed to process your request',
-      response: 'I apologize, but I\'m having trouble responding right now. Please try again later or call us at +91 70217 51691.',
+      response: 'I apologize, but I\'m having trouble responding right now. Please try again later or call us at +91 99604 16025.',
       showWhatsAppButton: true,
       whatsappUrl: WHATSAPP_URL
     }, { status: 500 });
