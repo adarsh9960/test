@@ -20,22 +20,19 @@ export async function POST(request: NextRequest) {
     const requiredFields = ['name', 'email', 'phone', 'from', 'to', 'date', 'time'];
     for (const field of requiredFields) {
       if (!body[field as keyof ContactFormData]) {
-        return NextResponse.json(
-          { error: `${field} is required` },
-          { status: 400 }
-        );
+        return NextResponse.json({ error: `${field} is required` }, { status: 400 });
       }
     }
 
-    // Create SMTP transporter using provided credentials
+    // Create transporter
     const transporter = nodemailer.createTransport({
       host: 'sg2plzcpnl509587.prod.sin2.secureserver.net',
       port: 465,
-      secure: true, // use SSL
+      secure: true,
       auth: {
         user: 'postman@itzadarsh.co.in',
-        pass: 'Adarsh_1M9960'
-      }
+        pass: 'Adarsh_1M9960',
+      },
     });
 
     // Email to admin
@@ -45,59 +42,96 @@ export async function POST(request: NextRequest) {
       replyTo: body.email,
       subject: `New Inquiry from ${body.name}`,
       html: `
-        <h2>New Inquiry from</h2>
+        <h2>New Inquiry Received</h2>
         <p><strong>Name:</strong> ${body.name}</p>
         <p><strong>Email:</strong> ${body.email}</p>
         <p><strong>Phone:</strong> ${body.phone}</p>
         <p><strong>Pickup Location:</strong> ${body.from}</p>
         <p><strong>Destination:</strong> ${body.to}</p>
-        <p><strong>Preferred Date:</strong> ${body.date}</p>
-        <p><strong>Preferred Time:</strong> ${body.time}</p>
-        <p><strong>Message:</strong> ${body.message || 'No additional message provided'}</p>
-        <hr>
-        <p><em>This email was sent from the contact form on your website.</em></p>
-      `
+        <p><strong>Date:</strong> ${body.date}</p>
+        <p><strong>Time:</strong> ${body.time}</p>
+        <p><strong>Message:</strong> ${body.message || 'No message provided'}</p>
+      `,
     };
 
-    // Email to user (auto-reply)
+    // --- New, styled auto-reply template ---
     const userMailOptions = {
-      from: 'postman@itzadarsh.co.in',
+      from: 'Elite Cabs <postman@itzadarsh.co.in>',
       to: body.email,
-      subject: 'Thank you for contacting us - Elite Cabs',
+      subject: 'Thank You for Contacting Elite Cabs',
       html: `
-        <h2>Thank You for Contacting Elite Cabs!</h2>
-        <p>Dear ${body.name},</p>
-        <p>We have received your inquiry and will get back to you shortly.</p>
-        
-        <h3>Your Inquiry Details:</h3>
-        <p><strong>Pickup Location:</strong> ${body.from}</p>
-        <p><strong>Destination:</strong> ${body.to}</p>
-        <p><strong>Preferred Date:</strong> ${body.date}</p>
-        <p><strong>Preferred Time:</strong> ${body.time}</p>
-        ${body.message ? `<p><strong>Your Message:</strong> ${body.message}</p>` : ''}
-        
-        <p>We will process your request and contact you soon to confirm your booking or provide further assistance.</p>
-        
-        <p>For immediate assistance, you can:</p>
-        <ul>
-          <li>Call us at: <a href="tel:+919960416025">+91 9960416025</a></li>
-          <li>WhatsApp us at: <a href="https://wa.me/919960416025">+91 9960416025</a></li>
-        </ul>
-        
-        <p>Best regards,<br>
-        <strong>Elite Cabs</strong></p>
-        
-        <hr>
-        <p><em>This is an automated response. Please do not reply to this email.</em></p>
-      `
+      <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+    
+    <!-- Header -->
+    <tr style="background-color: #665300;">
+      <td align="center" style="padding: 20px;">
+        <img src="https://www.elitecabsmumbai.com/elite-cabs-logo.png" alt="Elite Cabs" width="160" style="display:block;">
+      </td>
+    </tr>
+
+    <!-- Body -->
+    <tr>
+      <td style="padding: 30px 40px;">
+        <h2 style="color: #003366; margin-top: 0;">Thank You, ${body.name}!</h2>
+        <p style="color: #444; line-height: 1.6;">We’ve received your inquiry and our team will contact you shortly to confirm your booking or assist with further details.</p>
+
+        <h3 style="color: #003366; margin-top: 30px;">Your Inquiry Details</h3>
+        <table cellpadding="6" cellspacing="0" style="width:100%; border-collapse: collapse; font-size: 14px; color: #333;">
+          <tr>
+            <td style="width: 40%; font-weight: bold;">Pickup Location:</td>
+            <td>${body.from}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Destination:</td>
+            <td>${body.to}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Preferred Date:</td>
+            <td>${body.date}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Preferred Time:</td>
+            <td>${body.time}</td>
+          </tr>
+          ${
+            body.message
+              ? `<tr><td style="font-weight: bold;">Your Message:</td><td>${body.message}</td></tr>`
+              : ''
+          }
+        </table>
+
+        <!-- Help Box -->
+        <div style="margin-top: 30px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
+          <p style="margin: 0; color: #003366; font-weight: bold;">Need immediate help?</p>
+          <p style="margin: 8px 0;">
+            📞 <a href="tel:+919960416025" style="color: #003366; text-decoration: none;">+91 99604 16025</a>
+          </p>
+          <p style="margin: 8px 0;">
+            💬 <a href="https://wa.me/919960416025" style="color: #003366; text-decoration: none;">WhatsApp us</a>
+          </p>
+        </div>
+
+        <p style="margin-top: 30px; color: #666;">Warm regards,<br><strong>Team Elite Cabs</strong></p>
+      </td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+      <td align="center" style="background: #665300; color: #ffffff; font-size: 12px; padding: 15px;">
+        <p style="margin: 0;">© ${new Date().getFullYear()} Elite Cabs Mumbai. All Rights Reserved.</p>
+        <p style="margin: 4px 0 0;">This is an automated response. Please do not reply to this email.</p>
+      </td>
+    </tr>
+  </table>
+</div>`,
     };
 
-    // Send emails
+    // Send both emails
     await transporter.sendMail(adminMailOptions);
     await transporter.sendMail(userMailOptions);
 
-    console.log('Contact form submission:', body);
-    console.log('Emails sent successfully');
+    console.log('Inquiry saved and emails sent:', body);
 
     return NextResponse.json(
       { message: 'Contact form submitted successfully' },
