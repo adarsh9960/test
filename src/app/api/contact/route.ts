@@ -130,26 +130,22 @@ export async function POST(request: NextRequest) {
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
   <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
-
+    
     <!-- Header -->
     <tr style="background-color: #665300;">
       <td align="center" style="padding: 20px;">
-        <img 
-          src="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png" 
-          alt="Airplane travel path"
-          width="100%"
-          style="max-width: 100%; height: auto; display: block; border: none; outline: none;"
-        >
+        <img src="https://www.elitecabsmumbai.com/elite-cabs-logo-blue.png" alt="Elite Cabs Logo" width="160" style="display:block; max-width: 100%; height:auto;">
       </td>
     </tr>
 
     <!-- Body -->
     <tr>
       <td style="padding: 30px 40px;">
-        <h2 style="color: #003366; margin-top: 0;">Thank You, ${body.name}!</h2>
-        <p style="color: #444; line-height: 1.6;">We’ve received your inquiry and our team will contact you shortly to confirm your booking or assist with further details.</p>
+        <h2 style="color: #003366; margin-top: 0;">Thank You for Contacting Elite Cabs!</h2>
+        <p style="color: #333;">Dear ${body.name},</p>
+        <p style="color: #444; line-height: 1.6;">We have received your inquiry and will get back to you shortly.</p>
 
-        <h3 style="color: #003366; margin-top: 30px;">Your Inquiry Details</h3>
+        <h3 style="color: #003366; margin-top: 30px;">Your Inquiry Details:</h3>
         <table cellpadding="6" cellspacing="0" style="width:100%; border-collapse: collapse; font-size: 14px; color: #333;">
           <tr>
             <td style="width: 40%; font-weight: bold;">Pickup Location:</td>
@@ -174,36 +170,26 @@ export async function POST(request: NextRequest) {
           }
         </table>
 
+        <p style="margin-top: 25px; color: #444; line-height: 1.6;">
+          We will process your request and contact you soon to confirm your booking or provide further assistance.
+        </p>
+
         <!-- Book Now Button -->
-        <div style="text-align: center; margin-top: 35px;">
+        <div style="text-align: center; margin: 30px 0;">
           <a href="https://rzp.io/rzp/Nw4FJaE6"
-            style="background-color: #003366; color: #ffffff; padding: 14px 28px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px;">
-            🚖 Book My Cab Now
+            style="background-color: #003366; color: #ffffff; padding: 14px 30px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px;">
+            🚖 Book Your Cab Now
           </a>
         </div>
 
-        <!-- Travel Image -->
-        <div style="margin-top: 30px; text-align: center;">
-          <img 
-            src="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg"
-            alt="Travel Around the World Poster"
-            width="100%"
-            style="max-width: 100%; height: auto; display: block; border: none; outline: none; border-radius: 8px;"
-          >
-        </div>
+        <!-- Support Section -->
+        <p style="color: #003366; font-weight: bold; margin-top: 30px;">For immediate assistance, you can:</p>
+        <ul style="color: #444; line-height: 1.6; padding-left: 20px;">
+          <li>📞 Call us at: <a href="tel:+919960416025" style="color: #003366; text-decoration: none;">+91 9960416025</a></li>
+          <li>💬 WhatsApp us at: <a href="https://wa.me/919960416025" style="color: #003366; text-decoration: none;">+91 9960416025</a></li>
+        </ul>
 
-        <!-- Help Box -->
-        <div style="margin-top: 30px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
-          <p style="margin: 0; color: #003366; font-weight: bold;">Need immediate help?</p>
-          <p style="margin: 8px 0;">
-            📞 <a href="tel:+919960416025" style="color: #003366; text-decoration: none;">+91 99604 16025</a>
-          </p>
-          <p style="margin: 8px 0;">
-            💬 <a href="https://wa.me/919960416025" style="color: #003366; text-decoration: none;">WhatsApp us</a>
-          </p>
-        </div>
-
-        <p style="margin-top: 30px; color: #666;">Warm regards,<br><strong>Team Elite Cabs</strong></p>
+        <p style="margin-top: 30px; color: #666;">Best regards,<br><strong>Team Elite Cabs</strong></p>
       </td>
     </tr>
 
