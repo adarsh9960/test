@@ -56,9 +56,9 @@ export async function POST(request: NextRequest) {
 
     // --- New, styled auto-reply template ---
     const userMailOptions = {
-      from: 'Elite Cabs <postman@itzadarsh.co.in>',
+      from: 'Elite Cabs 24X7 <postman@itzadarsh.co.in>',
       to: body.email,
-      subject: 'Thank You for Contacting Elite Cabs',
+      subject: '${body.name}! We recieved your response',
       html: `
       <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
   <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
