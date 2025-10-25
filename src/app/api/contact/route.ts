@@ -134,12 +134,15 @@ export async function POST(request: NextRequest) {
       <!-- Header -->
       <tr style="background-color: #665300;">
         <td align="center" style="padding: 20px;">
-          <img src="https://www.elitecabsmumbai.com/elite-cabs-logo.png" alt="Elite Cabs" width="160" style="display:block;">
+          <img class="ez-resource-show__preview__image" srcset="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png 4751w, https://static.vecteezy.com/system/resources/previews/021/970/037/large_2x/airplane-travel-path-clip-art-free-png.png 9503w" sizes="(max-width: 600px) 100vw, (max-width: 1100px) calc(100vw - 60px), (max-width: 1480px) calc(100vw - 420px), (max-width: 1745px) calc(100vw - 500px), calc(100vw - 620px)" alt="Airplane travel path clip art png" fetchpriority="high" title="Airplane travel path clip art" draggable="false" data-zoom-src="https://static.vecteezy.com/system/resources/previews/021/970/037/large_2x/airplane-travel-path-clip-art-free-png.png" data-original-width="1920" data-original-height="396" data-action="click-&gt;resource-show-preview-zoom#trackZoomIn" data-resource-show-preview-target="previewImage" data-image-zoom-target="image" src="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png">
+           
         </td>
+        
       </tr>
 
       <!-- Body -->
       <tr>
+        
         <td style="padding: 30px 40px;">
           <h2 style="color: #003366; margin-top: 0;">Thank You, ${body.name}!</h2>
           <p style="color: #444; line-height: 1.6;">We’ve received your inquiry and our team will contact you shortly to confirm your booking or assist with further details.</p>
@@ -170,13 +173,16 @@ export async function POST(request: NextRequest) {
           </table>
 
           <!-- Book Now Button -->
+
           <div style="text-align: center; margin-top: 35px;">
-            <a href="https://rzp.io/rzp/Nw4FJaE6"
-              style="background-color: #ffcc00; color: #000; padding: 14px 28px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px; transition: background 0.3s;">
-              🚖 Complete booking Now
+             <a href="https://rzp.io/rzp/Nw4FJaE6"
+              style="background-color: #003366; color: #000000; padding: 14px 28px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px; transition: background 0.3s;">
+              Book My Cab Now
             </a>
-            <p style="color:#666; font-size:12px; margin-top:8px;">Secure Razorpay Payment</p>
+            
           </div>
+          <br>
+          <img style="width: fit-content; height: fit-content; " class="ez-resource-show__preview__image" srcset="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg 2940w, https://static.vecteezy.com/system/resources/previews/001/128/259/large_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg 5880w" sizes="(max-width: 600px) 100vw, (max-width: 1100px) calc(100vw - 60px), (max-width: 1480px) calc(100vw - 420px), (max-width: 1745px) calc(100vw - 500px), calc(100vw - 620px)" alt="Travel Around the World Important Landmarks Poster vector" fetchpriority="high" title="Travel Around the World Important Landmarks Poster" draggable="false" data-zoom-src="https://static.vecteezy.com/system/resources/previews/001/128/259/large_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg" data-original-width="3333" data-original-height="1111" data-action="click-&gt;resource-show-preview-zoom#trackZoomIn" data-resource-show-preview-target="previewImage" data-image-zoom-target="image" src="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg">
 
           <!-- Help Box -->
           <div style="margin-top: 30px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
