@@ -129,85 +129,93 @@ export async function POST(request: NextRequest) {
   subject: 'We received your response',
   html: `
   <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
-    <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
-      
-      <!-- Header -->
-      <tr style="background-color: #665300;">
-        <td align="center" style="padding: 20px;">
-          <img class="ez-resource-show__preview__image" srcset="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png 4751w, https://static.vecteezy.com/system/resources/previews/021/970/037/large_2x/airplane-travel-path-clip-art-free-png.png 9503w" sizes="(max-width: 600px) 100vw, (max-width: 1100px) calc(100vw - 60px), (max-width: 1480px) calc(100vw - 420px), (max-width: 1745px) calc(100vw - 500px), calc(100vw - 620px)" alt="Airplane travel path clip art png" fetchpriority="high" title="Airplane travel path clip art" draggable="false" data-zoom-src="https://static.vecteezy.com/system/resources/previews/021/970/037/large_2x/airplane-travel-path-clip-art-free-png.png" data-original-width="1920" data-original-height="396" data-action="click-&gt;resource-show-preview-zoom#trackZoomIn" data-resource-show-preview-target="previewImage" data-image-zoom-target="image" src="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png">
-           
-        </td>
-        
-      </tr>
+  <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
 
-      <!-- Body -->
-      <tr>
-        
-        <td style="padding: 30px 40px;">
-          <h2 style="color: #003366; margin-top: 0;">Thank You, ${body.name}!</h2>
-          <p style="color: #444; line-height: 1.6;">We’ve received your inquiry and our team will contact you shortly to confirm your booking or assist with further details.</p>
+    <!-- Header -->
+    <tr style="background-color: #665300;">
+      <td align="center" style="padding: 20px;">
+        <img 
+          src="https://static.vecteezy.com/system/resources/previews/021/970/037/non_2x/airplane-travel-path-clip-art-free-png.png" 
+          alt="Airplane travel path"
+          width="100%"
+          style="max-width: 100%; height: auto; display: block; border: none; outline: none;"
+        >
+      </td>
+    </tr>
 
-          <h3 style="color: #003366; margin-top: 30px;">Your Inquiry Details</h3>
-          <table cellpadding="6" cellspacing="0" style="width:100%; border-collapse: collapse; font-size: 14px; color: #333;">
-            <tr>
-              <td style="width: 40%; font-weight: bold;">Pickup Location:</td>
-              <td>${body.from}</td>
-            </tr>
-            <tr>
-              <td style="font-weight: bold;">Destination:</td>
-              <td>${body.to}</td>
-            </tr>
-            <tr>
-              <td style="font-weight: bold;">Preferred Date:</td>
-              <td>${body.date}</td>
-            </tr>
-            <tr>
-              <td style="font-weight: bold;">Preferred Time:</td>
-              <td>${body.time}</td>
-            </tr>
-            ${
-              body.message
-                ? `<tr><td style="font-weight: bold;">Your Message:</td><td>${body.message}</td></tr>`
-                : ''
-            }
-          </table>
+    <!-- Body -->
+    <tr>
+      <td style="padding: 30px 40px;">
+        <h2 style="color: #003366; margin-top: 0;">Thank You, ${body.name}!</h2>
+        <p style="color: #444; line-height: 1.6;">We’ve received your inquiry and our team will contact you shortly to confirm your booking or assist with further details.</p>
 
-          <!-- Book Now Button -->
+        <h3 style="color: #003366; margin-top: 30px;">Your Inquiry Details</h3>
+        <table cellpadding="6" cellspacing="0" style="width:100%; border-collapse: collapse; font-size: 14px; color: #333;">
+          <tr>
+            <td style="width: 40%; font-weight: bold;">Pickup Location:</td>
+            <td>${body.from}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Destination:</td>
+            <td>${body.to}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Preferred Date:</td>
+            <td>${body.date}</td>
+          </tr>
+          <tr>
+            <td style="font-weight: bold;">Preferred Time:</td>
+            <td>${body.time}</td>
+          </tr>
+          ${
+            body.message
+              ? `<tr><td style="font-weight: bold;">Your Message:</td><td>${body.message}</td></tr>`
+              : ''
+          }
+        </table>
 
-          <div style="text-align: center; margin-top: 35px;">
-             <a href="https://rzp.io/rzp/Nw4FJaE6"
-              style="background-color: #003366; color: #000000; padding: 14px 28px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px; transition: background 0.3s;">
-              Book My Cab Now
-            </a>
-            
-          </div>
-          <br>
-          <img style="width: fit-content; height: fit-content; " class="ez-resource-show__preview__image" srcset="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg 2940w, https://static.vecteezy.com/system/resources/previews/001/128/259/large_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg 5880w" sizes="(max-width: 600px) 100vw, (max-width: 1100px) calc(100vw - 60px), (max-width: 1480px) calc(100vw - 420px), (max-width: 1745px) calc(100vw - 500px), calc(100vw - 620px)" alt="Travel Around the World Important Landmarks Poster vector" fetchpriority="high" title="Travel Around the World Important Landmarks Poster" draggable="false" data-zoom-src="https://static.vecteezy.com/system/resources/previews/001/128/259/large_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg" data-original-width="3333" data-original-height="1111" data-action="click-&gt;resource-show-preview-zoom#trackZoomIn" data-resource-show-preview-target="previewImage" data-image-zoom-target="image" src="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg">
+        <!-- Book Now Button -->
+        <div style="text-align: center; margin-top: 35px;">
+          <a href="https://rzp.io/rzp/Nw4FJaE6"
+            style="background-color: #003366; color: #ffffff; padding: 14px 28px; border-radius: 6px; font-weight: bold; text-decoration: none; display: inline-block; font-size: 16px;">
+            🚖 Book My Cab Now
+          </a>
+        </div>
 
-          <!-- Help Box -->
-          <div style="margin-top: 30px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
-            <p style="margin: 0; color: #003366; font-weight: bold;">Need immediate help?</p>
-            <p style="margin: 8px 0;">
-              📞 <a href="tel:+919960416025" style="color: #003366; text-decoration: none;">+91 99604 16025</a>
-            </p>
-            <p style="margin: 8px 0;">
-              💬 <a href="https://wa.me/919960416025" style="color: #003366; text-decoration: none;">WhatsApp us</a>
-            </p>
-          </div>
+        <!-- Travel Image -->
+        <div style="margin-top: 30px; text-align: center;">
+          <img 
+            src="https://static.vecteezy.com/system/resources/previews/001/128/259/non_2x/travel-around-the-world-important-landmarks-poster-free-vector.jpg"
+            alt="Travel Around the World Poster"
+            width="100%"
+            style="max-width: 100%; height: auto; display: block; border: none; outline: none; border-radius: 8px;"
+          >
+        </div>
 
-          <p style="margin-top: 30px; color: #666;">Warm regards,<br><strong>Team Elite Cabs</strong></p>
-        </td>
-      </tr>
+        <!-- Help Box -->
+        <div style="margin-top: 30px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
+          <p style="margin: 0; color: #003366; font-weight: bold;">Need immediate help?</p>
+          <p style="margin: 8px 0;">
+            📞 <a href="tel:+919960416025" style="color: #003366; text-decoration: none;">+91 99604 16025</a>
+          </p>
+          <p style="margin: 8px 0;">
+            💬 <a href="https://wa.me/919960416025" style="color: #003366; text-decoration: none;">WhatsApp us</a>
+          </p>
+        </div>
 
-      <!-- Footer -->
-      <tr>
-        <td align="center" style="background: #665300; color: #ffffff; font-size: 12px; padding: 15px;">
-          <p style="margin: 0;">© ${new Date().getFullYear()} Elite Cabs Mumbai. All Rights Reserved.</p>
-          <p style="margin: 4px 0 0;">This is an automated response. Please do not reply to this email.</p>
-        </td>
-      </tr>
-    </table>
-  </div>`
+        <p style="margin-top: 30px; color: #666;">Warm regards,<br><strong>Team Elite Cabs</strong></p>
+      </td>
+    </tr>
+
+    <!-- Footer -->
+    <tr>
+      <td align="center" style="background: #665300; color: #ffffff; font-size: 12px; padding: 15px;">
+        <p style="margin: 0;">© ${new Date().getFullYear()} Elite Cabs Mumbai. All Rights Reserved.</p>
+        <p style="margin: 4px 0 0;">This is an automated response. Please do not reply to this email.</p>
+      </td>
+    </tr>
+  </table>
+</div>`
 };
 
     // Send both emails
