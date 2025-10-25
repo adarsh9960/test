@@ -33,7 +33,7 @@ const buttonActions = [
   'https://wa.me/919960416025',
   'tel:+919960416025',
   'https://itzadarsh.co.in/contact',
-  'sms:+919960416025?body=Hello%20Elite%20Cabs%2C%20I%20want%20to%20know%20more%20about%20your%Taxi%20service.'
+  'sms:+919960416025'
 ];
 
 // Individual Image Components for buttons using the provided icons
