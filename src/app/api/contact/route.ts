@@ -35,30 +35,99 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    // Email to admin
     const adminMailOptions = {
-      from: 'postman@itzadarsh.co.in',
-      to: 'admin@itzadarsh.co.in',
-      replyTo: body.email,
-      subject: `New Inquiry from ${body.name}`,
-      html: `
-        <h2>New Inquiry Received</h2>
-        <p><strong>Name:</strong> ${body.name}</p>
-        <p><strong>Email:</strong> ${body.email}</p>
-        <p><strong>Phone:</strong> ${body.phone}</p>
-        <p><strong>Pickup Location:</strong> ${body.from}</p>
-        <p><strong>Destination:</strong> ${body.to}</p>
-        <p><strong>Date:</strong> ${body.date}</p>
-        <p><strong>Time:</strong> ${body.time}</p>
-        <p><strong>Message:</strong> ${body.message || 'No message provided'}</p>
-      `,
-    };
+  from: 'Elite Cabs 24X7 <postman@itzadarsh.co.in>',
+  to: 'Elite Cabs Admin <admin@itzadarsh.co.in>',
+  replyTo: body.email,
+  subject: ` New Inquiry from ${body.name}`,
+  html: `
+  <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
+      
+      <!-- Header -->
+      <tr style="background-color: #665300;">
+        <td align="center" style="padding: 20px;">
+          <img src="https://www.elitecabsmumbai.com/elite-cabs-logo.png" alt="Elite Cabs" width="150" style="display:block;">
+          <h2 style="color: #ffffff; margin: 10px 0 0;">New Booking Inquiry</h2>
+        </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+        <td style="padding: 30px 40px;">
+          <p style="color: #444; line-height: 1.6; font-size: 15px;">
+            You’ve received a new inquiry from the website contact form.  
+            Below are the details:
+          </p>
+
+          <table cellpadding="8" cellspacing="0" style="width:100%; border-collapse: collapse; font-size: 14px; color: #333;">
+            <tr style="background-color: #f7f7f7;">
+              <td style="width: 40%; font-weight: bold;">Name:</td>
+              <td>${body.name}</td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold;">Email:</td>
+              <td><a href="mailto:${body.email}" style="color:#003366; text-decoration:none;">${body.email}</a></td>
+            </tr>
+            <tr style="background-color: #f7f7f7;">
+              <td style="font-weight: bold;">Phone:</td>
+              <td><a href="tel:${body.phone}" style="color:#003366; text-decoration:none;">${body.phone}</a></td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold;">Pickup Location:</td>
+              <td>${body.from}</td>
+            </tr>
+            <tr style="background-color: #f7f7f7;">
+              <td style="font-weight: bold;">Destination:</td>
+              <td>${body.to}</td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold;">Preferred Date:</td>
+              <td>${body.date}</td>
+            </tr>
+            <tr style="background-color: #f7f7f7;">
+              <td style="font-weight: bold;">Preferred Time:</td>
+              <td>${body.time}</td>
+            </tr>
+            ${
+              body.message
+                ? `<tr><td style="font-weight: bold;">Message:</td><td>${body.message}</td></tr>`
+                : ''
+            }
+          </table>
+
+          <div style="margin-top: 25px; background: #f0f4f9; padding: 15px 20px; border-radius: 6px;">
+            <p style="margin: 0; color: #003366; font-weight: bold;">Quick Actions:</p>
+            <ul style="margin: 8px 0 0; padding-left: 18px; color: #003366;">
+              <li><a href="mailto:${body.email}" style="color: #003366; text-decoration: none;">Reply via Email</a></li>
+              <li><a href="tel:${body.phone}" style="color: #003366; text-decoration: none;">Call ${body.phone}</a></li>
+              <li><a href="https://wa.me/${body.phone.replace(/[^0-9]/g, '')}" style="color: #003366; text-decoration: none;">Message on WhatsApp</a></li>
+            </ul>
+          </div>
+
+          <p style="margin-top: 30px; color: #666; font-size: 13px;">
+            This inquiry was submitted from your Elite cabs website form.
+          </p>
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td align="center" style="background: #665300; color: #ffffff; font-size: 12px; padding: 15px;">
+          <p style="margin: 0;">Elite Cabs Admin Alert | ${new Date().toLocaleDateString()}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+  `,
+};
+
 
     // --- New, styled auto-reply template ---
     const userMailOptions = {
       from: 'Elite Cabs 24X7 <postman@itzadarsh.co.in>',
       to: body.email,
-      subject: '${body.name}! We recieved your response',
+      subject: 'We recieved your response',
       html: `
       <div style="font-family: Arial, sans-serif; background-color: #f4f7fa; padding: 0; margin: 0;">
   <table width="100%" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 40px auto; background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1);">
