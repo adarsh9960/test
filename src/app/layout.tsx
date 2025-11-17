@@ -23,8 +23,8 @@ const structuredData = {
   "alternateName": "Elite Cabs Mumbai",
   "description": "Premium car rental service in Mumbai with professional drivers. 24X7 airport transfers, corporate travel, wedding & event transportation. Best cab service near me.",
   "url": "https://elitecabsmumbai.com",
-  "telephone": "+917021751691",
-  "email": "contact.elitecabsmumbai@gmail.com",
+  "telephone": "+919960416025",
+  "email": "contact@itzadarsh.co.in",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Mumbai",
@@ -121,11 +121,11 @@ const structuredData = {
     "@type": "ServiceChannel",
     "name": "Customer Service",
     "serviceUrl": "https://elitecabsmumbai.com",
-    "servicePhone": "+917021751691",
+    "servicePhone": "+919960416025",
     "availableLanguage": ["Hindi", "English", "Marathi"]
   },
   "sameAs": [
-    "https://wa.me/917021751691"
+    "https://wa.me/919960416025"
   ]
 };
 
@@ -136,7 +136,7 @@ const taxiServiceSchema = {
   "name": "Elite Cabs 24X7",
   "description": "Premium taxi service in Mumbai offering 24X7 cab service near me with professional drivers.",
   "url": "https://elitecabsmumbai.com",
-  "telephone": "+917021751691",
+  "telephone": "+919960416025",
   "serviceType": "Taxi Service",
   "provider": {
     "@type": "LocalBusiness",
@@ -303,9 +303,9 @@ export default function RootLayout({
         <meta name="google-adsense-account" content="ca-pub-2355033797574310" />
         
         {/* Contact info meta tags */}
-        <meta name="contact" content="+917021751691" />
-        <meta name="contact:email" content="contact.elitecabsmumbai@gmail.com" />
-        <meta name="contact:whatsapp" content="+917021751691" />
+        <meta name="contact" content="+919960416025" />
+        <meta name="contact:email" content="contact@itzadarsh.co.in" />
+        <meta name="contact:whatsapp" content="+919960416025" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
