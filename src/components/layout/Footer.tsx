@@ -150,6 +150,7 @@ export default function Footer({ rating }: FooterProps) {
               <p className="text-sm opacity-75">
                 © {currentYear} {cleanedCopy}
               </p>
+              <p className="text-sm opacity-75"> ITZ Adarsh </p>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               {legalLinks.map((link) => (
