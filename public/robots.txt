@@ -11,5 +11,3 @@ Disallow: /temp/
 Disallow: /*.js$
 Disallow: /*.css$
 Disallow: /*.json$
-Disallow: /*.xml$
-Disallow: /*.txt$
