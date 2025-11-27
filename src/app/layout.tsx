@@ -318,6 +318,9 @@ export default function RootLayout({
         {children}
         <Toaster />
       </body>
+      <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-2355033797574310">
+</amp-auto-ads>
     </html>
   );
 }
