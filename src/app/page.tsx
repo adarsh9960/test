@@ -138,6 +138,17 @@ export default function Home() {
         />
 
         <ServicesGrid services={servicesData.services} />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         <FleetSection categories={fleetData.categories} />
         <SightseeingSection places={sightseeingData.places} />
         <GallerySection images={galleryData.images} />
@@ -158,11 +169,33 @@ export default function Home() {
 
             <div className="max-w-4xl mx-auto">
               <div className="grid lg:grid-cols-2 gap-12">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                 <ContactForm onSubmit={handleContactSubmit} />
 
                 <div className="space-y-6">
                   <div className="bg-card rounded-lg p-6 shadow-lg">
                     <h3 className="text-xl font-semibold text-foreground mb-4">
+                      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                       {contactData.contact.info.title}
                     </h3>
                     <div className="space-y-4">
@@ -180,6 +213,17 @@ export default function Home() {
                               <p className="font-medium text-foreground">{item.label}</p>
                               <p className="text-muted-foreground">{item.value}</p>
                             </div>
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                           </div>
                         );
                       })}
@@ -188,9 +232,31 @@ export default function Home() {
 
                   <div className="bg-card rounded-lg p-6 shadow-lg">
                     <h3 className="text-xl font-semibold text-foreground mb-4">
+                      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                       {contactData.contact.quickActions.title}
                     </h3>
                     <div className="space-y-3">
+                      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
                       {contactData.contact.quickActions.actions.map((action) => {
                         const IconComponent = action.icon === 'Phone' ? Phone : MessageCircle;
                         return (
@@ -213,6 +279,17 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-format="fluid"
+     data-ad-layout-key="-5i+c8-1r-7m+vh"
+     data-ad-client="ca-pub-2355033797574310"
+     data-ad-slot="4333491086"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
               </div>
             </div>
           </div>
