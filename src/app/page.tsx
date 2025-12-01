@@ -60,7 +60,8 @@ export default function Home() {
   const handleContactSubmit = (data: any) => {
     console.log('Contact form submitted:', data);
   };
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2355033797574310"
+     crossorigin="anonymous"></script>
   // JSON-LD for Elite Cabs 24X7
   const jsonLdData = {
     "@context": "https://schema.org",
